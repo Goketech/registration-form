@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("./bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%);
+    font-family: "poppins", sans-serif;
+}
+main{
+    display: flex;
+    align-items: center;
+}
+.free{ 
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    color: white;
+    font-weight: bold;
+    padding: 1em;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 55px;
+    margin-right: 80px;
+    padding-left: 50px;
+}
+.free p{
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+}
+form{
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    align-content: center;
+    width: 400px;
+    padding-top: 10px;
+    margin-right: 80px;
+}
+.intro{
+    color: white;
+}
+.form{
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+input{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 5px;
+    width: 350px;
+    align-content: center;
+}
+.submit{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    font-weight: 100;
+    font-size: 16px;
+    border: none;
+    border-radius: 2px;
+    width: 350px;
+}
+span{
+    color: hsl(0, 100%, 74%);
+}
+h2{
+    margin-bottom: auto;
+    margin-left: 50px;
+    font-size: 40px;
+}
+.intro p{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.enter{
+    margin: 20px;
+}
+form p{
+    color: grey;
+}
+.end{
+    padding-left: 20px;
+}
+.small{
+    font-size: 11;
+    color: white;
+    font-weight: 100;
+}
+@media screen and (maxwidth:400px) {
+    main{
+        flex-direction: column;
+        width: 50%;
+    }
+}
