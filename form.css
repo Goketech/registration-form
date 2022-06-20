@@ -95,7 +95,7 @@ form p{
     color: white;
     font-weight: 100;
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:450px) {
     main{
         flex-direction: column;
         width: 100%;
