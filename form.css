@@ -98,7 +98,7 @@ form p{
 @media screen and (max-width:450px) {
     main{
         flex-direction: column;
-        width: 100%;
+        width: 50%;
         margin:50px;
         align-items:center;
     }
