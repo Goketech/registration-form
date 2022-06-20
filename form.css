@@ -99,5 +99,9 @@ form p{
     main{
         flex-direction: column;
         width: 100%;
+        margin:50px;
+    }
+    .free{
+        margin-top:20px;
     }
 }
